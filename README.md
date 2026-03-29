@@ -50,7 +50,7 @@ and carb ratios.
 1. Sign in to Github, or [create a new Github Account](https://github.com/signup) if you do not 
    have one yet  
 2. Create a fork of this repo in your own account by pressing the "Fork" button. When asked, click
-   the checkbox to "Copy the `3.4.0.0+aisf3.2.0` branch only".   
+   the checkbox to "Copy the `3.4.1.0+aisf3.2.0` branch only".   
    If you get the error message "No available destinations to fork this repository.", 
    you probably already have a fork of AndroidAPS. Github does not allow two forks of the same 
    base repository. You now have two options: 
