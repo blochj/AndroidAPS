@@ -12,8 +12,8 @@ However, it is important to start with well-tested basal rate and settings for i
 and carb ratios.
 
 ## Where to find documentation about autoISF
-* Please visit ga-zelle’s repository [GitHub - ga-zelle/autoISF](https://github.com/ga-zelle/autoISF/tree/A3.3.3.a%2Baisf3.1.0).
-* The [**Quick Guide (bzw. Kurzanleitung)**](https://github.com/ga-zelle/autoISF/blob/A3.3.3.a%2Baisf3.1.0/autoISF3.1.0_Quick_Guide.pdf) provides an overview of autoISF and its features
+* Please visit ga-zelle’s repository [GitHub - ga-zelle/autoISF](https://github.com/ga-zelle/autoISF/tree/A3.4.0.0_ai3.2.0).
+* The [**Quick Guide (bzw. Kurzanleitung)**](https://github.com/ga-zelle/autoISF/blob/A3.4.0.0_ai3.2.0/autoISF3.2.0_Quick_Guide.pdf) provides an overview of autoISF and its features
 
 
 ## Why do I get AutoISF here and not at ga-zelle's Repo?
@@ -25,8 +25,8 @@ and carb ratios.
   [Koelewij](https://github.com/koelewij) and [myself](https://github.com/T-o-b-i-a-s).
 * This repository here was created to provide a stable version of AndroidAPS with the current 
   autoISF extensions already integrated to simplify the build process.
-* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/3.4.0.0+aisf3.2.0 uses
-  [AndroidAPS 3.4.0.0](https://github.com/nightscout/AndroidAPS/releases/tag/3.4.0.0)
+* This branch https://github.com/T-o-b-i-a-s/AndroidAPS/tree/3.4.1.0+aisf3.2.0 uses
+  [AndroidAPS 3.4.1.0](https://github.com/nightscout/AndroidAPS/releases/tag/3.4.1.0)
   from the official [Nightscout AndroidAPS](https://github.com/nightscout/AndroidAPS)
   repo as a base and adds autoISF 3.2.0 to it.
 
@@ -40,7 +40,7 @@ and carb ratios.
 * In the AAPS Client allow to show the script debug from the main app
   to understand what happend in the last loop and the reasons
 
-## Why was autoISF not added to the current AndroidAPS "master" version 3.4.0.0?
+## Why is autoISF not already added into the current AndroidAPS "master" version 3.4.1.0?
 * With AndroidAPS 3.3, autoISF was introduced as a plugin, but can only be enabled in dev mode
 * The version available here makes the latest 3.2.0 version of autoISF available even without 
   dev mode
@@ -70,7 +70,7 @@ and carb ratios.
 4. Now start the browser build using the Github Action 
    [aaps-ci](https://androidaps.readthedocs.io/de/latest/SettingUpAaps/BrowserBuild.html#aaps-ci-github-actions-to-build-the-aaps-apk). 
    At the moment when the description asks you to select the "master" branch, make sure to
-   select this branch "3.4.0.0+aisf3.2.0" when setting the parameters to really create AndroidAPS
+   select this branch "3.4.1.0+aisf3.2.0" when setting the parameters to really create AndroidAPS
    with autoISF included.
 5. After the build is completed, you can download the APK from your Google Drive that was used when
    setting up the Github repository secrets in step 3 
@@ -89,7 +89,7 @@ and carb ratios.
     do **not** use the `master` branch
   * If it is not already selected, switch to the branch you want to build by clicking on the branch
     name, choosing "show more" under "Remote branches" and look for the name of
-    the branch with an "origin/" prefix: e.g. `origin/3.4.0.0+aisf3.2.0`. Left-click that name and
+    the branch with an "origin/" prefix: e.g. `origin/3.4.1.0+aisf3.2.0`. Left-click that name and
     select "Checkout". 
 7. The system will now create a local branch with the same name as the remote branch and switch to that branch, which is indicated by the name of
    the branch being shown in the upper right corner
